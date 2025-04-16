@@ -28,7 +28,7 @@ export default function Home() {
             className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:ring-2 hover:ring-blue-400 transition-all duration-300 ease-in-out p-6 flex flex-col text-center focus:outline-orange-500"
           >
             <Image
-              src={`${basePath}/images/wifi_adm.png`}
+              src={`${basePath}/public/images/wifi_adm.png`}
               alt="Rede administrativa"
               width={80}
               height={80}
@@ -49,7 +49,7 @@ export default function Home() {
             className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:ring-2 hover:ring-blue-400 transition-all duration-300 ease-in-out p-6 flex flex-col text-center focus:outline-orange-500"
           >
             <Image
-              src={`${basePath}/images/eduroam-icon.png`}
+              src={`${basePath}/public/images/eduroam-icon.png`}
               alt="Rede Eduroam"
               width={130}
               height={100}
@@ -70,7 +70,7 @@ export default function Home() {
             className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:ring-2 hover:ring-blue-400 transition-all duration-300 ease-in-out p-6 flex flex-col text-center focus:outline-orange-500"
           >
             <Image
-              src={`${basePath}/images/wifi_vis.png`}
+              src={`${basePath}/public/images/wifi_vis.png`}
               alt="Rede Visitantes"
               width={80}
               height={80}
